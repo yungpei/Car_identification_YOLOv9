@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 import sys
 from pathlib import Path
 

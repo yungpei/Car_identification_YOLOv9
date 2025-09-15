@@ -96,6 +96,10 @@ def run(
         with dt[1]:
             visualize = increment_path(save_dir / Path(path).stem, mkdir=True) if visualize else False
             pred = model(im, augment=augment, visualize=visualize)
+ 
+            # 如果 pred 是 tuple/list，取第一個輸出
+            if isinstance(pred, (list, tuple)):
+                pred = pred[0]
 
         # NMS
         with dt[2]:
