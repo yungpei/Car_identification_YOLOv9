@@ -1,5 +1,5 @@
 # Car_identification_YOLOv9
-使用 YOLOv9 運用在臺灣汽機車車牌 識別
+使用 YOLOv9 運用在臺灣汽機車的車牌識別
 
 ## 操作流程 HackMD
 [Yolov9 安裝及實作](https://hackmd.io/@Yung-Pei/Yolov9_test)
